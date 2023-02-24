@@ -1,0 +1,56 @@
+#s7 .wholeBody{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+#s7 .mainText{
+  font-family: 'poppins',sans-serif;
+}
+#s7 .mainText:hover{
+    color: #5846e0;
+}
+ #s7 .articles{
+    text-align: center;
+    color: #051C1D;
+}
+#s7 .para{
+    text-align: center;
+    color: #9599BB;
+}
+#s7 .para1{
+  color:#9599BB;
+}
+#s7 .para
+    {
+        animation: 2s anim-lineUp ease-out ;
+      }
+      @keyframes anim-lineUp {
+        0% {
+          opacity: 0;
+          transform: translateY(80%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+
+ #s7 .readmore:hover{
+    color: #051C1D;
+}
+#s7 .imagess:hover{
+    transform: rotate(2deg);
+    opacity: 0.7; 
+ 
+    
+}
+#s7 .imagessz:hover{
+    transform: rotate(2deg);
+    opacity: 0.7;    
+}
